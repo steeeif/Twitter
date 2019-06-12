@@ -1,3 +1,20 @@
+Twitter app
+
+Set up DB variables in .env file
+<code>
+DB_CONNECTION=mysql
+DB_HOST=127.0.0.1
+DB_PORT=3306
+DB_DATABASE=twitter
+DB_USERNAME=root
+DB_PASSWORD=root
+</code>
+<h1>Runn Migration</h1>
+<code>php artisan migrate </code>
+<code>php artisan serve </code>
+
+
+
 <p align="center"><img src="https://laravel.com/assets/img/components/logo-laravel.svg"></p>
 
 <p align="center">
