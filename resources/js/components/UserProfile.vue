@@ -54,7 +54,7 @@ export default {
             axios.put(`${this.env}/status/${this.id}`)
                 .then((response) => {
                     this.status = response.data.status
-                    console.log(this.status)
+
                 }).catch((error) => {
                     console.log(error);
                 });
@@ -63,7 +63,7 @@ export default {
             axios.get(`${this.env}/status/${this.id}`)
                 .then((response) => {
                     this.status = response.data.status
-                    console.log(this.status)
+
                 }).catch((error) => {
                     console.log(error);
                 });
